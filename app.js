@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.json({ message: "This is changed message from The Backend" });
+    res.json({ message: "This is fresh changed message from The Backend" });
 });
 
 app.listen(PORT, () => {
